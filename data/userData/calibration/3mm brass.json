@@ -1,0 +1,122 @@
+{
+  "PosX1": 0.2008192539215088,
+  "User": "khetamdouba",
+  "PosX0": 2.3040008544921875,
+  "PosX3": 5.0044473027810454E-6,
+  "PosX2": -9.78376716375351E-4,
+  "PosData": [
+    {
+      "PinAngle": 0,
+      "SpringBackAngle": 0
+    },
+    {
+      "PinAngle": 5,
+      "SpringBackAngle": 0.26868772506713867
+    },
+    {
+      "PinAngle": 10,
+      "SpringBackAngle": 5.10095739364624
+    },
+    {
+      "PinAngle": 15,
+      "SpringBackAngle": 9.913673400878906
+    },
+    {
+      "PinAngle": 20,
+      "SpringBackAngle": 14.746432304382324
+    },
+    {
+      "PinAngle": 30,
+      "SpringBackAngle": 24.468093872070312
+    },
+    {
+      "PinAngle": 45,
+      "SpringBackAngle": 38.2830924987793
+    },
+    {
+      "PinAngle": 60,
+      "SpringBackAngle": 53.01167297363281
+    },
+    {
+      "PinAngle": 75,
+      "SpringBackAngle": 67.84040069580078
+    },
+    {
+      "PinAngle": 90,
+      "SpringBackAngle": 82.04606628417969
+    },
+    {
+      "PinAngle": 110,
+      "SpringBackAngle": 100.8818130493164
+    },
+    {
+      "PinAngle": 130,
+      "SpringBackAngle": 121.60197448730469
+    }
+  ],
+  "Machine": "3X3566-GTJ",
+  "Bend Head Diameter": 0.125,
+  "Accuracy": "Standard",
+  "NegData": [
+    {
+      "PinAngle": 0,
+      "SpringBackAngle": 0
+    },
+    {
+      "PinAngle": 5,
+      "SpringBackAngle": 1.2876834869384766
+    },
+    {
+      "PinAngle": 10,
+      "SpringBackAngle": 5.124198913574219
+    },
+    {
+      "PinAngle": 15,
+      "SpringBackAngle": 9.961581230163574
+    },
+    {
+      "PinAngle": 20,
+      "SpringBackAngle": 14.771119117736816
+    },
+    {
+      "PinAngle": 30,
+      "SpringBackAngle": 24.441984176635742
+    },
+    {
+      "PinAngle": 45,
+      "SpringBackAngle": 40.10466766357422
+    },
+    {
+      "PinAngle": 60,
+      "SpringBackAngle": 53.99306869506836
+    },
+    {
+      "PinAngle": 75,
+      "SpringBackAngle": 67.86994934082031
+    },
+    {
+      "PinAngle": 90,
+      "SpringBackAngle": 82.10459899902344
+    },
+    {
+      "PinAngle": 110,
+      "SpringBackAngle": 101.77738189697266
+    },
+    {
+      "PinAngle": 130,
+      "SpringBackAngle": 121.55431365966797
+    }
+  ],
+  "Profile Name": "3mm brass",
+  "XContactPos": 1.7489999532699585,
+  "Nice Name": "",
+  "Timestamp": "2019_1_7__14_52_34",
+  "Feed Wheel": "FW-318-01 1/8\"",
+  "NegX0": -8.409034729003906,
+  "NegX1": 0.2006845474243164,
+  "NegX2": 0.001000232994556427,
+  "Material Name": "3mm brass",
+  "NegX3": 5.220499588176608E-6,
+  "Bend Head": "BH-318-01 1/8\"",
+  "XContactNeg": -7.9070000648498535
+}

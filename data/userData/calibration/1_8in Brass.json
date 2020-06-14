@@ -1,0 +1,141 @@
+{
+  "PosX1": 0.2048015594482422,
+  "User": "pensa",
+  "PosX0": 1.53802490234375,
+  "Feed Wheel Diameter": 48,
+  "PosX3": 4.8671208787709475E-6,
+  "PosX2": -9.81651246547699E-4,
+  "PosData": [
+    {
+      "PinAngle": 0,
+      "SpringBackAngle": 0
+    },
+    {
+      "PinAngle": 10,
+      "SpringBackAngle": 8
+    },
+    {
+      "PinAngle": 20,
+      "SpringBackAngle": 18
+    },
+    {
+      "PinAngle": 30,
+      "SpringBackAngle": 28
+    },
+    {
+      "PinAngle": 40,
+      "SpringBackAngle": 35
+    },
+    {
+      "PinAngle": 50,
+      "SpringBackAngle": 45
+    },
+    {
+      "PinAngle": 60,
+      "SpringBackAngle": 55
+    },
+    {
+      "PinAngle": 70,
+      "SpringBackAngle": 65
+    },
+    {
+      "PinAngle": 80,
+      "SpringBackAngle": 74
+    },
+    {
+      "PinAngle": 90,
+      "SpringBackAngle": 84
+    },
+    {
+      "PinAngle": 100,
+      "SpringBackAngle": 94
+    },
+    {
+      "PinAngle": 110,
+      "SpringBackAngle": 104
+    },
+    {
+      "PinAngle": 120,
+      "SpringBackAngle": 113
+    },
+    {
+      "PinAngle": 130,
+      "SpringBackAngle": 123
+    }
+  ],
+  "Machine": "3X3566-GVG",
+  "Bend Head Diameter": 0.125,
+  "Accuracy": "Standard",
+  "NegData": [
+    {
+      "PinAngle": 0,
+      "SpringBackAngle": 0
+    },
+    {
+      "PinAngle": 10,
+      "SpringBackAngle": 5.75
+    },
+    {
+      "PinAngle": 20,
+      "SpringBackAngle": 15.75
+    },
+    {
+      "PinAngle": 30,
+      "SpringBackAngle": 25.75
+    },
+    {
+      "PinAngle": 40,
+      "SpringBackAngle": 35.75
+    },
+    {
+      "PinAngle": 50,
+      "SpringBackAngle": 43
+    },
+    {
+      "PinAngle": 60,
+      "SpringBackAngle": 53.75
+    },
+    {
+      "PinAngle": 70,
+      "SpringBackAngle": 63.75
+    },
+    {
+      "PinAngle": 80,
+      "SpringBackAngle": 725
+    },
+    {
+      "PinAngle": 90,
+      "SpringBackAngle": 82.5
+    },
+    {
+      "PinAngle": 100,
+      "SpringBackAngle": 92.5
+    },
+    {
+      "PinAngle": 110,
+      "SpringBackAngle": 110
+    },
+    {
+      "PinAngle": 120,
+      "SpringBackAngle": 111
+    },
+    {
+      "PinAngle": 130,
+      "SpringBackAngle": 121
+    }
+  ],
+  "Profile Name": "1_8 Brass CRUSH",
+  "XContactPos": 1.4980000257492065,
+  "Nice Name": "",
+  "Mandrel Offset": 7,
+  "Timestamp": "2015_10_22__17_44_56",
+  "Feed Wheel": "FW-318-01 1/8\"",
+  "NegX0": -8.289749145507812,
+  "NegX1": 0.16568946838378906,
+  "Mandrel Radius": 3.175100088119507,
+  "NegX2": 1.1627189815044403E-4,
+  "Material Name": "1_8 Brass",
+  "NegX3": -1.2525924830697477E-7,
+  "XContactNeg": -7.72599983215332,
+  "Bend Head": "BH-318-01 1/8\""
+}

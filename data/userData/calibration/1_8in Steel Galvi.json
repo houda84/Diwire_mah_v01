@@ -1,0 +1,140 @@
+{
+  "Bend Head Diameter": 0.125,
+  "User": "khetamdouba",
+  "Feed Wheel": "FW-318-01 1/8\"",
+  "XContactPos": 1.4980000257492065,
+  "Feed Wheel Diameter": 48,
+  "Timestamp": "2020_6_13__23_24_10",
+  "XContactNeg": -7.72599983215332,
+  "PosData": [
+    {
+      "PinAngle": 0,
+      "SpringBackAngle": 0
+    },
+    {
+      "PinAngle": 10,
+      "SpringBackAngle": 9.5
+    },
+    {
+      "PinAngle": 20,
+      "SpringBackAngle": 19.5
+    },
+    {
+      "PinAngle": 30,
+      "SpringBackAngle": 29.5
+    },
+    {
+      "PinAngle": 40,
+      "SpringBackAngle": 39
+    },
+    {
+      "PinAngle": 50,
+      "SpringBackAngle": 49
+    },
+    {
+      "PinAngle": 60,
+      "SpringBackAngle": 59
+    },
+    {
+      "PinAngle": 70,
+      "SpringBackAngle": 68
+    },
+    {
+      "PinAngle": 80,
+      "SpringBackAngle": 77
+    },
+    {
+      "PinAngle": 90,
+      "SpringBackAngle": 89
+    },
+    {
+      "PinAngle": 100,
+      "SpringBackAngle": 99
+    },
+    {
+      "PinAngle": 110,
+      "SpringBackAngle": 109
+    },
+    {
+      "PinAngle": 120,
+      "SpringBackAngle": 119
+    },
+    {
+      "PinAngle": 130,
+      "SpringBackAngle": 129
+    }
+  ],
+  "NegX2": 7.300525903701782E-4,
+  "Mandrel Radius": 3.175100088119507,
+  "Nice Name": "",
+  "NegX3": 3.4078839235007763E-6,
+  "NegData": [
+    {
+      "PinAngle": 0,
+      "SpringBackAngle": 0
+    },
+    {
+      "PinAngle": 10,
+      "SpringBackAngle": 9
+    },
+    {
+      "PinAngle": 20,
+      "SpringBackAngle": 19
+    },
+    {
+      "PinAngle": 30,
+      "SpringBackAngle": 28
+    },
+    {
+      "PinAngle": 40,
+      "SpringBackAngle": 37.79999923706055
+    },
+    {
+      "PinAngle": 50,
+      "SpringBackAngle": 48
+    },
+    {
+      "PinAngle": 60,
+      "SpringBackAngle": 60
+    },
+    {
+      "PinAngle": 70,
+      "SpringBackAngle": 67
+    },
+    {
+      "PinAngle": 80,
+      "SpringBackAngle": 75.75
+    },
+    {
+      "PinAngle": 90,
+      "SpringBackAngle": 86
+    },
+    {
+      "PinAngle": 100,
+      "SpringBackAngle": 98
+    },
+    {
+      "PinAngle": 110,
+      "SpringBackAngle": 108
+    },
+    {
+      "PinAngle": 120,
+      "SpringBackAngle": 118
+    },
+    {
+      "PinAngle": 130,
+      "SpringBackAngle": 128
+    }
+  ],
+  "Accuracy": "Standard",
+  "NegX0": -7.7747955322265625,
+  "Material Name": "1_8in Galv Bright",
+  "NegX1": 0.1887044906616211,
+  "PosX3": 3.390887286514044E-6,
+  "Bend Head": "BH-318-01 1/8\"",
+  "PosX2": -7.15993344783783E-4,
+  "PosX1": 0.18617534637451172,
+  "Profile Name": "1_8in Steel Galvi",
+  "PosX0": 1.4989013671875,
+  "Mandrel Offset": 7
+}

@@ -1,0 +1,141 @@
+{
+  "PosX1": 0.19754934310913086,
+  "User": "pensa",
+  "PosX0": 1.58660888671875,
+  "Feed Wheel Diameter": 48,
+  "PosX3": 4.723930032923818E-6,
+  "PosX2": -9.892582893371582E-4,
+  "PosData": [
+    {
+      "PinAngle": 0,
+      "SpringBackAngle": 0
+    },
+    {
+      "PinAngle": 10,
+      "SpringBackAngle": 8
+    },
+    {
+      "PinAngle": 20,
+      "SpringBackAngle": 18
+    },
+    {
+      "PinAngle": 30,
+      "SpringBackAngle": 28
+    },
+    {
+      "PinAngle": 40,
+      "SpringBackAngle": 38
+    },
+    {
+      "PinAngle": 50,
+      "SpringBackAngle": 48
+    },
+    {
+      "PinAngle": 60,
+      "SpringBackAngle": 58
+    },
+    {
+      "PinAngle": 70,
+      "SpringBackAngle": 68
+    },
+    {
+      "PinAngle": 80,
+      "SpringBackAngle": 78
+    },
+    {
+      "PinAngle": 90,
+      "SpringBackAngle": 90
+    },
+    {
+      "PinAngle": 100,
+      "SpringBackAngle": 100
+    },
+    {
+      "PinAngle": 110,
+      "SpringBackAngle": 110
+    },
+    {
+      "PinAngle": 120,
+      "SpringBackAngle": 120
+    },
+    {
+      "PinAngle": 130,
+      "SpringBackAngle": 130
+    }
+  ],
+  "Machine": "3X3566-GVG",
+  "Bend Head Diameter": 0.125,
+  "Accuracy": "Standard",
+  "NegData": [
+    {
+      "PinAngle": 0,
+      "SpringBackAngle": 0
+    },
+    {
+      "PinAngle": 10,
+      "SpringBackAngle": 8
+    },
+    {
+      "PinAngle": 20,
+      "SpringBackAngle": 18
+    },
+    {
+      "PinAngle": 30,
+      "SpringBackAngle": 28
+    },
+    {
+      "PinAngle": 40,
+      "SpringBackAngle": 38
+    },
+    {
+      "PinAngle": 50,
+      "SpringBackAngle": 48
+    },
+    {
+      "PinAngle": 60,
+      "SpringBackAngle": 58
+    },
+    {
+      "PinAngle": 70,
+      "SpringBackAngle": 68
+    },
+    {
+      "PinAngle": 80,
+      "SpringBackAngle": 78
+    },
+    {
+      "PinAngle": 90,
+      "SpringBackAngle": 90
+    },
+    {
+      "PinAngle": 100,
+      "SpringBackAngle": 100
+    },
+    {
+      "PinAngle": 110,
+      "SpringBackAngle": 110
+    },
+    {
+      "PinAngle": 120,
+      "SpringBackAngle": 120
+    },
+    {
+      "PinAngle": 130,
+      "SpringBackAngle": 130
+    }
+  ],
+  "Profile Name": "1_8 Galv Bright Profile 3",
+  "XContactPos": 1.4980000257492065,
+  "Nice Name": "",
+  "Mandrel Offset": 7,
+  "Timestamp": "2015_10_22__12_29_0",
+  "Feed Wheel": "FW-318-01 1/8\"",
+  "NegX0": -7.8146209716796875,
+  "NegX1": 0.19754695892333984,
+  "Mandrel Radius": 3.175100088119507,
+  "NegX2": 9.892582893371582E-4,
+  "Material Name": "1_8in Galv Bright",
+  "NegX3": 4.723086021840572E-6,
+  "XContactNeg": -7.72599983215332,
+  "Bend Head": "BH-318-01 1/8\""
+}

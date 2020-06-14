@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="batikfont">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/00_Master_Thesis_OWL/Experiments/Software_Java/source_mah/lib/batikfont.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/00_Master_Thesis_OWL/Experiments/Software_Java/source_mah/lib/core.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/00_Master_Thesis_OWL/Experiments/Software_Java/source_mah/lib/G4P.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/00_Master_Thesis_OWL/Experiments/Software_Java/source_mah/lib/geomerative_MOD1.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/00_Master_Thesis_OWL/Experiments/Software_Java/source_mah/lib/geomerative_ORIG.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/00_Master_Thesis_OWL/Experiments/Software_Java/source_mah/lib/geomerative.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/00_Master_Thesis_OWL/Experiments/Software_Java/source_mah/lib/gluegen-rt-natives-windows-i586.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/00_Master_Thesis_OWL/Experiments/Software_Java/source_mah/lib/gluegen-rt.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/00_Master_Thesis_OWL/Experiments/Software_Java/source_mah/lib/jogl-all-natives-windows-i586.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/00_Master_Thesis_OWL/Experiments/Software_Java/source_mah/lib/jogl-all.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/00_Master_Thesis_OWL/Experiments/Software_Java/source_mah/lib/jssc.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/00_Master_Thesis_OWL/Experiments/Software_Java/source_mah/lib/papaya.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/00_Master_Thesis_OWL/Experiments/Software_Java/source_mah/lib/sDrop.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/00_Master_Thesis_OWL/Experiments/Software_Java/source_mah/lib/serial.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <NATIVE>
+      <root url="file://$USER_HOME$/Desktop/00_Master_Thesis_OWL/Experiments/Software_Java/source_mah/lib" />
+    </NATIVE>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Desktop/00_Master_Thesis_OWL/Experiments/Software_Java/source_mah/lib/jssc.jar!/" />
+    </SOURCES>
+  </library>
+</component>

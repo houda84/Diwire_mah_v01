@@ -1,0 +1,122 @@
+{
+  "PosX1": 0.18831849098205566,
+  "User": "khetamdouba",
+  "PosX0": 2.41412353515625,
+  "PosX3": 3.3562828321009874E-6,
+  "PosX2": -6.741955876350403E-4,
+  "PosData": [
+    {
+      "PinAngle": 0,
+      "SpringBackAngle": 0
+    },
+    {
+      "PinAngle": 5,
+      "SpringBackAngle": 1.3217557668685913
+    },
+    {
+      "PinAngle": 10,
+      "SpringBackAngle": 5.53148078918457
+    },
+    {
+      "PinAngle": 15,
+      "SpringBackAngle": 10.465523719787598
+    },
+    {
+      "PinAngle": 20,
+      "SpringBackAngle": 15.761610984802246
+    },
+    {
+      "PinAngle": 30,
+      "SpringBackAngle": 25.52850914001465
+    },
+    {
+      "PinAngle": 45,
+      "SpringBackAngle": 39.9786491394043
+    },
+    {
+      "PinAngle": 60,
+      "SpringBackAngle": 54.357025146484375
+    },
+    {
+      "PinAngle": 75,
+      "SpringBackAngle": 68.54964447021484
+    },
+    {
+      "PinAngle": 90,
+      "SpringBackAngle": 80.1996841430664
+    },
+    {
+      "PinAngle": 110,
+      "SpringBackAngle": 100.8749008178711
+    },
+    {
+      "PinAngle": 130,
+      "SpringBackAngle": 121.82219696044922
+    }
+  ],
+  "Machine": "3X3566-GTJ",
+  "Bend Head Diameter": 0.125,
+  "Accuracy": "High",
+  "NegData": [
+    {
+      "PinAngle": 0,
+      "SpringBackAngle": 0
+    },
+    {
+      "PinAngle": 5,
+      "SpringBackAngle": 1.5433794260025024
+    },
+    {
+      "PinAngle": 10,
+      "SpringBackAngle": 6.156039714813232
+    },
+    {
+      "PinAngle": 15,
+      "SpringBackAngle": 10.615814208984375
+    },
+    {
+      "PinAngle": 20,
+      "SpringBackAngle": 15.674703598022461
+    },
+    {
+      "PinAngle": 30,
+      "SpringBackAngle": 25.942495346069336
+    },
+    {
+      "PinAngle": 45,
+      "SpringBackAngle": 41.016475677490234
+    },
+    {
+      "PinAngle": 60,
+      "SpringBackAngle": 54.72124099731445
+    },
+    {
+      "PinAngle": 75,
+      "SpringBackAngle": 69.1407470703125
+    },
+    {
+      "PinAngle": 90,
+      "SpringBackAngle": 83.36885833740234
+    },
+    {
+      "PinAngle": 110,
+      "SpringBackAngle": 102.92897033691406
+    },
+    {
+      "PinAngle": 130,
+      "SpringBackAngle": 123.71773529052734
+    }
+  ],
+  "Profile Name": "3mm Schwissdraht High Cal",
+  "XContactPos": 1.9210000038146973,
+  "Nice Name": "",
+  "Timestamp": "2019_2_11__12_58_9",
+  "Feed Wheel": "FW-318-01 1/8\"",
+  "NegX0": -8.387176513671875,
+  "NegX1": 0.19243860244750977,
+  "NegX2": 8.217617869377136E-4,
+  "Material Name": "1_16in Galvanized Steel",
+  "NegX3": 4.1316961869597435E-6,
+  "Bend Head": "BH-318-01 1/8\"",
+  "XContactNeg": -7.948999881744385
+}

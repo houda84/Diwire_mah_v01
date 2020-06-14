@@ -1,0 +1,7 @@
+{
+  "fw": 1,
+  "material": 6,
+  "bh": 1,
+  "units": 1,
+  "curFile": "/Users/khetamdouba/Desktop/00_Master_Thesis_OWL/Experiments/Software_Java/source_mah/data/bendMe.svg"
+}

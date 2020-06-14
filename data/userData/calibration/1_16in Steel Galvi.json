@@ -1,0 +1,141 @@
+{
+  "PosX1": 0.1143488883972168,
+  "User": "pensa",
+  "PosX0": 1.9839401245117188,
+  "Feed Wheel Diameter": 49.70000076293945,
+  "PosX3": 4.735571565106511E-6,
+  "PosX2": -3.637745976448059E-4,
+  "PosData": [
+    {
+      "PinAngle": 0,
+      "SpringBackAngle": 0
+    },
+    {
+      "PinAngle": 10,
+      "SpringBackAngle": 13
+    },
+    {
+      "PinAngle": 20,
+      "SpringBackAngle": 23
+    },
+    {
+      "PinAngle": 30,
+      "SpringBackAngle": 33
+    },
+    {
+      "PinAngle": 40,
+      "SpringBackAngle": 43
+    },
+    {
+      "PinAngle": 50,
+      "SpringBackAngle": 53
+    },
+    {
+      "PinAngle": 60,
+      "SpringBackAngle": 63
+    },
+    {
+      "PinAngle": 70,
+      "SpringBackAngle": 73
+    },
+    {
+      "PinAngle": 80,
+      "SpringBackAngle": 83
+    },
+    {
+      "PinAngle": 90,
+      "SpringBackAngle": 93
+    },
+    {
+      "PinAngle": 100,
+      "SpringBackAngle": 103
+    },
+    {
+      "PinAngle": 110,
+      "SpringBackAngle": 113
+    },
+    {
+      "PinAngle": 120,
+      "SpringBackAngle": 123
+    },
+    {
+      "PinAngle": 130,
+      "SpringBackAngle": 133
+    }
+  ],
+  "Machine": "3X3566-GVG",
+  "Bend Head Diameter": 0.0625,
+  "Accuracy": "Standard",
+  "NegData": [
+    {
+      "PinAngle": 0,
+      "SpringBackAngle": 0
+    },
+    {
+      "PinAngle": 10,
+      "SpringBackAngle": 12
+    },
+    {
+      "PinAngle": 20,
+      "SpringBackAngle": 20
+    },
+    {
+      "PinAngle": 30,
+      "SpringBackAngle": 29
+    },
+    {
+      "PinAngle": 40,
+      "SpringBackAngle": 41
+    },
+    {
+      "PinAngle": 50,
+      "SpringBackAngle": 52
+    },
+    {
+      "PinAngle": 60,
+      "SpringBackAngle": 62
+    },
+    {
+      "PinAngle": 70,
+      "SpringBackAngle": 73
+    },
+    {
+      "PinAngle": 80,
+      "SpringBackAngle": 82.5
+    },
+    {
+      "PinAngle": 90,
+      "SpringBackAngle": 92
+    },
+    {
+      "PinAngle": 100,
+      "SpringBackAngle": 101
+    },
+    {
+      "PinAngle": 110,
+      "SpringBackAngle": 110
+    },
+    {
+      "PinAngle": 120,
+      "SpringBackAngle": 121
+    },
+    {
+      "PinAngle": 130,
+      "SpringBackAngle": 131
+    }
+  ],
+  "Profile Name": "1_16 Galv CRUSH2",
+  "XContactPos": 2.0769999027252197,
+  "Nice Name": "",
+  "Mandrel Offset": 3,
+  "Timestamp": "2015_10_22__16_50_51",
+  "Feed Wheel": "FW-159-01 1/16\"",
+  "NegX0": -8.102813720703125,
+  "NegX1": 0.12392234802246094,
+  "Mandrel Radius": 1.587499976158142,
+  "NegX2": 5.723237991333008E-4,
+  "Material Name": "1_16in Galvanized Steel",
+  "NegX3": 6.034271791577339E-6,
+  "XContactNeg": -8.116000175476074,
+  "Bend Head": "BH-159-01 1/16\""
+}
