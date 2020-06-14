@@ -25,7 +25,7 @@ public class DIWire extends PApplet {
 
 /* DIWire Bender
  * 3D Wire Bender by Pensa - www.PensaNYC.com
- * Written by Marco Perry, Chad Ingerick and Clay Budin
+ * Written by Marco Perry, Chad Ingerick and Clay Budin, Mahmoud ABdel Mohsen
  * Email DIWire@PensaNYC.com for questions
  * Drives on 2 Stepper Motors to bender wire in 2D space
  *
@@ -49,7 +49,7 @@ public class DIWire extends PApplet {
    calculates the feed and bend angles to print the 2D shape, and sends these values to the DIWire
 */
 
-    String softwareVersion = "1.1.5";
+    String softwareVersion = "1.1.6";
 
     String errorFilename = "errors.txt";
     String defaultsFilename = "data/defaults.txt";
@@ -6835,7 +6835,7 @@ void setSerialNumber (String st) {
         serialConnected = false;
         tinyGFlashReady = false;
         TinyGSafeWrite("{\"id\":\"\"}"+'\n');
-        delay(500);
+        delay(1000); //todo delay from 500
         println("testConnection() = " + tinyGFlashReady);
         return tinyGFlashReady;
     }
@@ -7045,7 +7045,7 @@ void setSerialNumber (String st) {
                         break;
                 }
                 flashCommand++;
-                delay(100);
+                delay(1000); // todo changed nap time from 100 to 500 to avoid failed flash
             }
         }
 
@@ -7068,7 +7068,7 @@ void setSerialNumber (String st) {
         TinyGSafeWrite("{\"homx\":\"\"}"+'\n');
         long flashStartMillis = System.currentTimeMillis();
         while (!homeResponse && (System.currentTimeMillis() - flashStartMillis) < 1000) {
-            delay(10);
+            delay(1000); //todo delay from 10
         }
 
         return tinyGHomed;
@@ -7095,7 +7095,7 @@ void setSerialNumber (String st) {
             tinyGHomed = false;
             long homeStartMillis = System.currentTimeMillis();
             while (!homeResponse && (System.currentTimeMillis() - homeStartMillis) < 15000) {
-                delay(10);
+                delay(1000); //todo delay from 10
             }
             tinyGHomed = homeResponse; //true;
 
@@ -7115,7 +7115,7 @@ void setSerialNumber (String st) {
             //safePrint("write: " + st);
             if (debugSerial) print("Sending to tinyG: " + st);
             TinyG.write(st);
-            delay(70);
+            delay(1000); //todo delay from 70
         }
         catch (Exception nullPointer) {
             //TinyG.stop();
@@ -7346,7 +7346,7 @@ void setSerialNumber (String st) {
         // tinyGHomed doesn't store whether we are currently homed, but whether we have been recently homed (?)
         if (!tinyGHomed) {
             tinyGHome();
-            delay(100);
+            delay(1000); //todo delay from 100
         }
 
         // convert the angle to a mm offset
@@ -7384,7 +7384,7 @@ void setSerialNumber (String st) {
                 TinyGSafeWrite("!%"+'\n');     // clear previous cmd
                 TinyGSafeWrite("g90"+'\n');    // put in absolute move mode
                 tinyGCode("g1 f" + XFeedRate + " x" + bendSent);    // do the bend at slow speed
-                delay(25);
+                delay(1000); //todo delay from 25
             } else  {
                 tinyGCommandReady = true;
             }
@@ -7392,7 +7392,7 @@ void setSerialNumber (String st) {
             // don't wait here for bend completion - instead continue on sending bend pin back to 0
             // but what if we pass through 0 on the way to the first bend?  tinyGCommandReady will be set prematurely
             // TO DO: fix limit switch hang problem
-            while (!tinyGCommandReady) delay(10);    // probably bad to hold up whole app waiting, also hangs if we hit limit
+            while (!tinyGCommandReady) delay(1000);    //todo delay from 10// probably bad to hold up whole app waiting, also hangs if we hit limit
 
             // send back to either home position or a few mm back
             // commands will queue
@@ -7411,12 +7411,12 @@ void setSerialNumber (String st) {
             if (abs(lastPositionX - bendSent) > POSITION_TOLERANCE)  {
                 tinyGCommandReady = false;
                 tinyGCode("g0 x" + bendSent);    // do the bend and then back off as quickly as possible
-                delay(25);
+                delay(1000); //todo delay from 25
             } else  {
                 tinyGCommandReady = true;
             }
 
-            while (!tinyGCommandReady) delay(10);    // probably bad to hold up whole app waiting, also hangs if we hit limit
+            while (!tinyGCommandReady) delay(1000);    //todo delay from 10// probably bad to hold up whole app waiting, also hangs if we hit limit
         } else
             println("sendBend(): Unable to establish serial connection to DIWire");
     }
@@ -7429,7 +7429,7 @@ void setSerialNumber (String st) {
             testSerial();
         if (!tinyGHomed) {
             tinyGHome();
-            delay(100);
+            delay(1000); //todo delay from 100
         }
 
         if (serialConnected) {
@@ -7446,7 +7446,7 @@ void setSerialNumber (String st) {
                 tinyGCommandReady = true;
             }
 
-            while (!tinyGCommandReady) delay(10);    // probably bad to hold up whole app waiting, also hangs if we hit limit
+            while (!tinyGCommandReady) delay(1000);    //todo delay from 10// probably bad to hold up whole app waiting, also hangs if we hit limit
         } else
             println("sendFeed():  Unable to establish serial connection to DIWire");
     }
