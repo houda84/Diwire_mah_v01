@@ -6928,27 +6928,27 @@ void setSerialNumber (String st) {
 
         int flashCommand = 0;
         JSONObject XSettings = new JSONObject();
-        XSettings.setInt("am", 1);                                         //Axis Mode
-        XSettings.setFloat("vm", XG0Rate);                             //Velocity Maximun
-        XSettings.setFloat("fr", XMaxRate);                                     //Feed Rate Maximum
-        XSettings.setFloat("tm", XTravelMax);                                     //Travel Maximum
-        XSettings.setFloat("jm", XAcceleration);    //Jerk Maximum
-        XSettings.setFloat("jh", XHomingJerk);            //Jerk Homing
-        //XSettings.setFloat("jd", 0.05000);                     //Junction Deviation
-        //XSettings.setInt("sn", 3);                                         //Minimum Switch Mode
-        //XSettings.setInt("sx", 2);                                         //Maximum Switch Mode
-        XSettings.setInt("sn", 3);                                         //Radius Setting
-        XSettings.setInt("sx", 2);                                         //Minimum Switch Mode
-        XSettings.setFloat("sv", XSearchVelocity);    //Search Velocity
-        XSettings.setFloat("lv", XLatchOffVelocity);//Latch Velocity
-        XSettings.setFloat("lb", XLatchBackoff);                                //Homing Latch Backoff
-        XSettings.setFloat("zb", homeOffsetPos);             //zero Backoff
+        XSettings.setInt("am", 1);                       //Axis Mode
+        XSettings.setFloat("vm", XG0Rate);               //Velocity Maximun
+        XSettings.setFloat("fr", XMaxRate);              //Feed Rate Maximum
+        XSettings.setFloat("tm", XTravelMax);            //Travel Maximum
+        XSettings.setFloat("jm", XAcceleration);         //Jerk Maximum
+        XSettings.setFloat("jh", XHomingJerk);           //Jerk Homing
+        //XSettings.setFloat("jd", 0.05000);             //Junction Deviation
+        //XSettings.setInt("sn", 3);                     //Minimum Switch Mode
+        //XSettings.setInt("sx", 2);                     //Maximum Switch Mode
+        XSettings.setInt("sn", 3);                       //Minimum Switch Mode
+        XSettings.setInt("sx", 2);                       //Maximum Switch Mode
+        XSettings.setFloat("sv", XSearchVelocity);       //Search Velocity
+        XSettings.setFloat("lv", XLatchOffVelocity);     //Latch Velocity
+        XSettings.setFloat("lb", XLatchBackoff);         //Homing Latch Backoff
+        XSettings.setFloat("zb", homeOffsetPos);         //zero Backoff
         JSONObject XJson = new JSONObject();
         XJson.setJSONObject("x", XSettings);
 
         JSONObject YSettings = new JSONObject();
         YSettings.setFloat("vm", (yrev*YG0Rate));
-        YSettings.setFloat("fr", (5000));      //Velocity Maximun
+        YSettings.setFloat("fr", (5000));                  //Velocity Maximun
         YSettings.setFloat("jm", (yrev*YAcceleration));    //Jerk Maximum
         JSONObject YJson = new JSONObject();
         YJson.setJSONObject("y", YSettings);
@@ -7045,7 +7045,7 @@ void setSerialNumber (String st) {
                         break;
                 }
                 flashCommand++;
-                delay(100);
+                delay(1000);
             }
         }
 
